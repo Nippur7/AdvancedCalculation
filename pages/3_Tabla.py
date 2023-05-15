@@ -25,18 +25,6 @@ st.write("P3 = (5, 10): Evaluamos la función f(x, y) en las coordenadas x = 5 y
 st.latex(r'''
     f(5, 10) = 5^2 + 5 + 10^2 = 25 + 5 + 100 = 130
     ''')
-tabla_orig = pd.DataFrame()
-columna1 = ["Puntos en la montaña","Dirección de máximo descenso"]
-columna2 = ["(7,8,f(7, 8))","<---,--->"]
-columna3 = ["(-4,1,f(-4, 1))","<---,--->"]
-columna4 = ["(5,10,f(5, 10))","<---,--->"]
-
-tabla_orig['Puntos en el plano'] = columna1
-tabla_orig['P1'] = columna2
-tabla_orig['P2'] = columna3
-tabla_orig['P3'] = columna4
-st.table(tabla_orig)
-
 
 tabla = pd.DataFrame()
 columna1 = ["Puntos en la montaña","Dirección de máximo descenso"]
