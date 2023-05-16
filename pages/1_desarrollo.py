@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-
+st.subheader( "Desarrollo" )
 st.write("El primer paso es encontrar el gradiente de la función de superficie dada, ya que el gradiente nos dará la dirección y magnitud de máximo crecimiento de la función en cada punto. El gradiente de una función de dos variables, como en este caso, se representa como un vector con dos componentes: la derivada parcial con respecto a 'x' y la derivada parcial con respecto a 'y'.")
 st.write("Para encontrar el gradiente de la función")
 st.latex(r''' 
