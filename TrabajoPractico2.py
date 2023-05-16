@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 
+st.title( "Calculo Avanzado" ) 
+st.write( "Trabajo Práctico Nº 2 - Gradiente" )
+
 st.write("Los ingenieros José y Pablo desean dinamitar la superficie de una montaña para crear derrumbes controlados de la tierra sobre la montaña. Para ello han creado un mapa por computadora tridimensional de la montaña, el cual obedece al siguiente modelo funcional:")
 
 st.latex(r''' 
