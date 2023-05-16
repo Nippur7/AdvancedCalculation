@@ -88,6 +88,7 @@ def plot_mountain():
             camera=dict(eye=dict(x=-1.5, y=-1.5, z=0.8)),
         ),
         title='Superficie de la montaña con vectores gradiente',
+        subtitle='Es posible hacer zoom con la rueda del mouse'
     )
 
     # Mostrar el gráfico en Streamlit
