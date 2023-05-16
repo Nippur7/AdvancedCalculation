@@ -9,13 +9,13 @@ st.write("Para encontrar el gradiente de la función")
 st.latex(r''' 
     𝑓(𝑥, 𝑦) = 𝑥^2+x+y^2
     ''')
-st.d1v1der()
+st.divider()
 st.write("calculamos las derivadas parciales de la función con respecto a ‘x’ y ‘y’ por separado.")
 st.write("La derivada parcial con respecto a ‘x’ es:")
 st.write("∂f/∂x = 2x + 1")
 st.write("La derivada parcial con respecto a ‘y’ es:")
 st.write("∂f/∂y = 2y")
-st.d1v1der()
+st.divider()
 st.write("Ahora que tenemos las derivadas parciales, podemos calcular el gradiente:")
 st.latex(r'''
     ∇f(x, y) = (∂f/∂x, ∂f/∂y) = (2x + 1, 2y)
