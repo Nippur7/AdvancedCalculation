@@ -10,7 +10,7 @@ st.latex(r'''
     𝑓(𝑥, 𝑦) = 𝑥^2+x+y^2
     ''')
 st.divider()
-st.write("calculamos las derivadas parciales de la función con respecto a ‘x’ y ‘y’ por separado.")
+st.write("Calculamos las derivadas parciales de la función con respecto a ‘x’ y ‘y’ por separado.")
 st.write("La derivada parcial con respecto a ‘x’ es:")
 st.write("∂f/∂x = 2x + 1")
 st.write("La derivada parcial con respecto a ‘y’ es:")
@@ -34,6 +34,7 @@ st.write("En el punto P3 = (5, 10):")
 st.latex(r'''
     ∇f(5, 10) = (2(5) + 1, 2(10)) = (11, 20)
     ''')
+st.divider()
 st.write("Ahora, para determinar la dirección de máximo descenso en cada punto de explosión, debemos encontrar el vector negativo del gradiente (-∇f). Esto se debe a que el gradiente apunta en la dirección de máximo crecimiento, mientras que queremos determinar la dirección de máximo descenso.")
 st.write("Entonces, la dirección de máximo descenso en el punto P1 es el vector (-15, -16), en el punto P2 es el vector (7, -2), y en el punto P3 es el vector (-11, -20). Estos vectores representan la dirección en la cual se derrumbará la montaña en cada punto de explosión")
 #GRÁFICO 2D
