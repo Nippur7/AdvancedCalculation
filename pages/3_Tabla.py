@@ -11,7 +11,7 @@ tabla_orig['Puntos en el plano'] = columna1
 tabla_orig['P1'] = columna2
 tabla_orig['P2'] = columna3
 tabla_orig['P3'] = columna4
-st.subheader( "Tabla de valores - Respuesta" )
+st.subheader( "Tabla de valores - Respuesta :books:" )
 st.table(tabla_orig)
 
 st.write("P1 = (7, 8): Para encontrar la coordenada z correspondiente a P1, simplemente evaluamos la función f(x, y) en las coordenadas x = 7 y y = 8:")

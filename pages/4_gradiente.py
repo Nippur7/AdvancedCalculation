@@ -2,6 +2,8 @@ import streamlit as st
 import numpy as np
 import plotly.graph_objects as go
 
+st.subheader( "Gráfico de los vectores gradientes :bulb:" )
+
 # Definir la función
 def f(x, y):
     return x**2 + x + y**2

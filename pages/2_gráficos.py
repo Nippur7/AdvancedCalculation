@@ -5,7 +5,7 @@ from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 
-st.subheader( "Gráficos de la curva" )
+st.subheader( "Gráficos de la curva :chart:" )
 # Definir la función
 def f(x, y):
     return x**2 + x + y**2
@@ -88,7 +88,7 @@ def plot_mountain():
             camera=dict(eye=dict(x=-1.5, y=-1.5, z=0.8)),
         ),
         title='Superficie de la montaña con vectores gradiente',
-        subtitle='Es posible hacer zoom con la rueda del mouse'
+        #subtitle='Es posible hacer zoom con la rueda del mouse'
     )
 
     # Mostrar el gráfico en Streamlit
